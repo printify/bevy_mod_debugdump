@@ -16,12 +16,12 @@ default = ["render_graph"]
 render_graph = ["bevy/render"]
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", rev="f6b42b86691bdea92613df3e1e754dbc9455dbc2", default-features = false }
+bevy = { git = "https://github.com/printify/bevy", rev="b91541b6efff2236f6aefca0f2baa09aba54f505", default-features = false }
 pretty-type-name = "1.0"
 itertools = "0.10.0"
 
 [dev-dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", rev="f6b42b86691bdea92613df3e1e754dbc9455dbc2", default-features = false, features = ["render", "bevy_wgpu", "x11"] }
+bevy = { git = "https://github.com/printify/bevy", rev="b91541b6efff2236f6aefca0f2baa09aba54f505", default-features = false, features = ["render", "bevy_wgpu", "x11"] }
 
 [[example]]
 name = "print_render_graph"
